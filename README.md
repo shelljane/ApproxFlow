@@ -7,9 +7,17 @@
 >* Download the code. 
 >>* Dependencies: cmake, g++, openmp
 
->* Modify main.cpp and probably Tests/TestQuantArray0.h
+>* mkdir build
 
->* Compile and run build/approxflow
+>* cd build
+
+>* cmake ..
+
+>* make
+
+>* ./approxflow
+
+>* Run different tests by modifying main.cpp and probably Tests/TestQuantArray0.h. 
 
 ## Note
 
