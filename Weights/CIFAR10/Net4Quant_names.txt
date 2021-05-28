@@ -1,5 +1,0 @@
-Conv1 Conv2DPooling
-Conv2 Conv2DPooling
-Conv3 Conv2DPooling
-FC1 FullyConnected
-FC_Logits FullyConnected
