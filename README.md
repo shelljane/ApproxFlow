@@ -21,7 +21,7 @@
 
 ## Note
 
->* You can run testMNIST / testFashionMNIST / testCIFAR functions with various look-up tables of approximate multipliers. 
+>* You can run testMNIST / testFashionMNIST / testCIFAR10AlexNet functions with various look-up tables of approximate multipliers. 
 
 >* The look-up tables are put in the Utils folder: 
 
@@ -35,7 +35,7 @@
 | CR(C.7)      | LUT_CR(C.7).txt |
 | OU(L.1)\[4\]      | LUT_OU(L.1).txt |
 | OU(L.3)      | LUT_OU(L.3).txt |
-| RoBA\[5\]         | LLUT_RoBA.txt |
+| SDLC\[5\]         | LUT_SDLC.txt |
 
 ## Reference
 
@@ -43,8 +43,9 @@
 
 \[2\] A. Momeni, J. Han, P. Montuschi, and F. Lombardi. Design and Analysis of Approximate Compressors for Multiplication. IEEE Transactions on Computers, 2015. 
 
-\[3\] C. Liu, J. Han, and F. {Lombardi}. A low-power, high-performance approximate multiplier with configurable partial error recovery. Design, Automation and Test in Europe Conference and Exhibition (DATE), 2014. 
+\[3\] C. Liu, J. Han, and F. Lombardi. A low-power, high-performance approximate multiplier with configurable partial error recovery. Design, Automation and Test in Europe Conference and Exhibition (DATE), 2014. 
 
 \[4\] C. Chen et al. Optimally Approximated and Unbiased Floating-Point Multiplier with Runtime Configurability. Proceedings of the 39th International Conference on Computer-Aided Desig. 2020. 
 
-\[5\] R. Zendegani et al. RoBA Multiplier: A Rounding-Based Approximate Multiplier for High-Speed yet Energy-Efficient Digital Signal Processing. IEEE Transactions on Very Large Scale Integration (VLSI) Systems. 2017. 
+\[5\] I. Qiqieh, R. Shafik, G. Tarawneh, D. Sokolov, and A. Yakovlev, "Energy-efficient approximate multiplier design using bit significance-driven logic compression," in Design, Automation and Test
+  in Europe Conference Exhibition (DATE), 2017.
